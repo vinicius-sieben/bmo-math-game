@@ -1,0 +1,59 @@
+div#bmo-body {
+  /* Dimensions */
+  width: 100vw;
+  height: 100vh;
+
+  /* Spacing */
+  padding: 10px 160px;
+
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  /* Coloring */
+  background-color: var(--bmo-cyan);
+}
+
+div#screen-game {
+  /* Dimensions */
+  width: 100%;
+  height: var(--bmo-lg-screen-height);
+
+  /* Properties */
+  border: solid var(--bmo-black);
+  border-width: var(--border-width);
+  border-radius: var(--border-radius);
+
+  /* Coloring */
+  background-color: var(--bmo-screen);
+}
+
+div#top-controls {
+  /* Dimensions */
+  width: 100%;
+
+  /* Spacing */
+  padding: 0 20px;
+
+  /* Display */
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+div#mid-controls {
+  /* Dimensions */
+  width: 100%;
+
+  /* Spacing */
+  padding: 0 40px;
+
+  /* Display */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+div#screen {
+  /* Dimensions */
+  height: 400px;
+  width: 100%;
+
+  /* Spacing */
+  padding: 40px;
+
+  /* Properties */
+  border: solid var(--bmo-black);
+  border-width: var(--border-width);
+  border-radius: var(--border-radius);
+
+  /* Coloring */
+  background-color: var(--bmo-screen);
+}

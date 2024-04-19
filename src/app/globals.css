@@ -1,0 +1,34 @@
+/* Application colors variables */
+
+:root {
+  /* Responsiveness */
+  --bmo-sm-screen-width: 0px;
+  --bmo-md-screen-width: 0px;
+  --bmo-lg-screen-width: 0px;
+
+  --bmo-sm-screen-height: 0px;
+  --bmo-md-screen-height: 0px;
+  --bmo-lg-screen-height: 0px;
+
+  /* Coloring */
+  --bmo-cyan: #25ad9f;
+  --bmo-red: #ec3b45;
+  --bmo-yellow: #ffec47;
+  --bmo-blue: #03487d;
+  --bmo-green: #005037;
+  --bmo-screen: #b9dfca;
+  --bmo-black: #000;
+
+  /* Properties */
+  --border-width: 8px;
+  --border-radius: 60px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}

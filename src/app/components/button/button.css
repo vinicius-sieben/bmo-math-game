@@ -1,0 +1,33 @@
+div#red-button {
+  /* Properties */
+  border: solid var(--bmo-black);
+  border-radius: var(--border-radius);
+  border-width: var(--border-width);
+  cursor: pointer;
+
+  /* Coloring */
+  background-color: var(--bmo-red);
+}
+
+div#blue-button {
+  /* Properties */
+  border: solid var(--bmo-black);
+  border-radius: var(--border-radius);
+  border-width: var(--border-width);
+  cursor: pointer;
+
+  /* Coloring */
+  background-color: var(--bmo-blue);
+}
+
+div.small-button {
+  /* Dimensions */
+  min-width: 50px;
+  min-height: 50px;
+}
+
+div.large-button {
+  /* Dimensions */
+  min-width: 100px;
+  min-height: 100px;
+}

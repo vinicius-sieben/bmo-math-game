@@ -1,0 +1,37 @@
+div#joystick {
+  /* Display */
+  display: flex;
+
+  /* Properties */
+  position: relative;
+}
+
+div.arrow {
+  /* Properties */
+  position: absolute;
+  cursor: pointer;
+}
+
+div#up {
+  /* Properties */
+  left: calc(50% - 15px);
+  top: 10px;
+}
+
+div#right {
+  /* Properties */
+  top: calc(50% - 15px);
+  left: calc(100% - 40px);
+}
+
+div#down {
+  /* Properties */
+  top: calc(100% - 40px);
+  left: calc(50% - 15px);
+}
+
+div#left {
+  /* Properties */
+  top: calc(50% - 15px);
+  left: 10px;
+}
