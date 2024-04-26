@@ -40,6 +40,7 @@ div#greatings {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 div#greatings h1 {
@@ -52,4 +53,18 @@ div#greatings p {
 
 div#greatings p span {
   color: var(--bmo-red);
+}
+
+@media (max-width: 900px) {
+  div#greatings h1 {
+    font-size: 80px;
+  }
+
+  div#greatings p {
+    font-size: 30px;
+  }
+
+  div#greatings p span {
+    font-size: 30px;
+  }
 }

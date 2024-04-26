@@ -2,6 +2,7 @@ div#bmo-body {
   /* Dimensions */
   width: 100vw;
   height: 100vh;
+  min-width: 470px;
 
   /* Spacing */
   padding: 10px 160px;
@@ -17,24 +18,10 @@ div#bmo-body {
   background-color: var(--bmo-cyan);
 }
 
-div#screen-game {
-  /* Dimensions */
-  width: 100%;
-  height: var(--bmo-lg-screen-height);
-
-  /* Properties */
-  border: solid var(--bmo-black);
-  border-width: var(--border-width);
-  border-radius: var(--border-radius);
-  position: relative;
-
-  /* Coloring */
-  background-color: var(--bmo-screen);
-}
-
 div#top-controls {
   /* Dimensions */
   width: 100%;
+  min-width: 430px;
 
   /* Spacing */
   padding: 0 20px;
@@ -48,6 +35,7 @@ div#top-controls {
 div#mid-controls {
   /* Dimensions */
   width: 100%;
+  min-width: 430px;
 
   /* Spacing */
   padding: 0 40px;

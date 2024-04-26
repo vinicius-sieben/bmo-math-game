@@ -1,3 +1,9 @@
 p.number {
   font-size: 150px;
 }
+
+@media (max-width: 900px) {
+  p.number {
+    font-size: 80px;
+  }
+}

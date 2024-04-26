@@ -1,14 +1,25 @@
 div.input-container {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border: solid;
   border-width: 6px;
 }
 
 div.input-container input {
-    height: 100%;
-    width: 100%;
-    font-size: 150px;
-    text-align: center;
-    background-color: #00000000;
+  height: 100%;
+  width: 100%;
+  font-size: 150px;
+  text-align: center;
+  background-color: #00000000;
+}
+
+@media (max-width: 900px) {
+  div.input-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  div.input-container input {
+    font-size: 80px;
+  }
 }
