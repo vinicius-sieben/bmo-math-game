@@ -6,7 +6,13 @@ div#screen {
   /* Spacing */
   padding: 40px;
 
+  /* Display */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   /* Properties */
+  position: relative;
   border: solid var(--bmo-black);
   border-width: var(--border-width);
   border-radius: var(--border-radius);

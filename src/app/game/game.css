@@ -1,0 +1,10 @@
+p#blue-button-message {
+  position: absolute;
+  bottom: 10px;
+  font-size: 20px;
+}
+
+p#blue-button-message span {
+  color: var(--bmo-blue);
+  font-weight: bold;
+}

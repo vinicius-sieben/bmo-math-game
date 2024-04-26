@@ -1,14 +1,10 @@
-import Link from "next/link";
-
 export default function Home() {
-    return (
-      <>
-        <title>BMO Math Game</title>
-        <h1>Hello World, BMO Math Game!</h1>
-        <ul>
-          <li><Link href="/game">Jogar</Link></li>
-        </ul>
-      </>
-    );
-  }
-  
+  return (
+    <>
+      <div id="greatings">
+        <h1>Welcome!</h1>
+        <p>Press the <span>red button</span> to start the game</p>
+      </div>
+    </>
+  );
+}

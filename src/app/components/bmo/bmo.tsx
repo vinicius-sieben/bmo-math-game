@@ -1,3 +1,5 @@
+"use client";
+
 import "./bmo.css";
 
 import Joystick from "../joystick/joystick";
@@ -11,14 +13,16 @@ const BMO = ({ children }: Readonly<{ children: React.ReactNode }>) => {
       <div id="bmo-body">
         <Screen>{children}</Screen>
 
+        {/* Top Controls */}
         <div id="top-controls">
-          <RoundedShape color="green-shape" size="large-shape"/>
-          <Button color="blue-button" size="small-button" />
+          <RoundedShape color="green-shape" size="large-shape" />
+          <Button color="blue-button" size="small-button" href="/"/>
         </div>
 
+        {/* Middle controls */}
         <div id="mid-controls">
           <Joystick />
-          <Button color="red-button" size="large-button" />
+          <Button color="red-button" size="large-button" href="/game"/>
         </div>
       </div>
     </>
